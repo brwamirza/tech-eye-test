@@ -132,12 +132,33 @@
   border-radius: 0.2rem 0.2rem 0 0;
   height: 336px;
 }
+[class*=card-product] .img-wrap img {
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
 }
 
 @media all and (max-width: 576px) {
 #product_list .card-product-grid .img-wrap {
   border-radius: 0.2rem 0.2rem 0 0;
+  height: 350px;
+}
+#product_list .card-product-grid .img-wrap img{
+  border-radius: 0.2rem 0.2rem 0 0;
   height: auto;
-  width: auto;
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
+}
+[class*=card-product] .img-wrap img {
+  height: 100%;
+  max-width: 100%;
+  width: 100%;
+  display: inline-block;
+  object-fit: cover;
 }
 }
