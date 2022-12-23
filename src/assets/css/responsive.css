@@ -138,5 +138,6 @@
 #product_list .card-product-grid .img-wrap {
   border-radius: 0.2rem 0.2rem 0 0;
   height: auto;
+  width: auto;
 }
 }
